@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<sdf version="1.6" >
+  <model name="drone4">
+
+    <include>
+      <uri>model://basic_drone</uri>
+    </include>
+
+  </model>
+</sdf>

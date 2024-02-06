@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  gazebo:
+    image: gazebo_docker
+    container_name: gazebo
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    network_mode: host
+
+    environment:
+      - DISPLAY=$DISPLAY
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ../gazebo_docker/packages/iq_sim:/home/catkin_ws/src/iq_sim/
+      # - ./simulator_generated_files/vehicle_worlds/swarm_world.world:/home/catkin_ws/src/uav_sim/worlds/swarm_world.world
+    command: >
+      /bin/bash -c "source ~/catkin_ws/devel/setup.bash && bash"
+   
+
+
+# roslaunch ~/catkin_ws/src/uav_sim/launch/runway.launch"

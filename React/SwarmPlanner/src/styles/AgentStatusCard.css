@@ -1,0 +1,159 @@
+/* .AgentStatusCardCollapsed {
+    background-color: white;
+    display: flex;
+    height: 30px;
+    margin: 5px;
+    align-items: center;
+} */
+
+.AgentStatusCardSection-Regular {
+    background-color: white;
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+.AgentStatusCardSection-RegularSpaced {
+    background-color: white;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 0 0 0;
+}
+.AgentStatusCardSection-RegularSlider {
+    background-color: white;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    padding: 0 20px 0 20px;
+
+}
+
+.AgentStatusCardSection-Medium {
+    background-color: white;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AgentStatusCardSection-Large {
+    background-color: white;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.AgentStatusCard {
+    background-color: white;
+    display: flex;
+    margin: 6px 6px 0 6px;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 8px;
+    border-color:white;
+    padding: 3px;
+    /* width: 745px; */
+}
+
+
+
+/* .AgentStatusCardExpanded {
+    background-color: white;
+    display: flex;
+    height: 70px;
+    margin: 5px;
+    align-items: center;
+} */
+
+.DroneLogo {
+    height: 30px;
+}
+
+.DockerIcon {
+    height: 20px;
+    margin: 0 0 0 8px;
+}
+
+.ConnectIcon {
+    height: 20px;
+    margin: 0 0 0 8px;
+}
+
+.ExpandOptions {
+    height: 20px;
+    width: 20px;
+
+}
+
+.ExpandOptions:hover {
+    background-color: grey;
+}
+
+.Selector {
+    /* width: 650px; */
+    flex: 10;
+}
+
+.SliderDisplay {
+    width: 50px;
+}
+
+.SetAltButton {
+    width: 60px;
+}
+
+.IdTag {
+    margin: 0 0 0 3px;
+    width: 80px;
+}
+
+.FlightModeTag {
+    display: flex;
+    margin: 0 0 0 3px;
+    width: 82px;
+    border-style: solid;
+    padding: 3px;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.DISARMED {
+    display: flex;
+    margin: 0 0 0 3px;
+    width: 90px;
+    border-style: solid;
+    padding: 3px;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.ARMED {
+    display: flex;
+    margin: 0 0 0 3px;
+    width: 90px;
+    border-style: solid;
+    padding: 3px;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+    color: White;
+    background-color: red;
+    border-color: red;
+    font-weight: bold;
+}
+
+.AltTag {
+    width: 50px;
+    margin: 0 0 0 3px;
+}
+
+.DropArrow {
+    height: 10px;
+}
+
+.DropArrow:hover {
+    background-color: lightgrey;
+}
